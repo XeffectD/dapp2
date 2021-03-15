@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./upload_index_style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="box">
+  <button id=button1 ><span>UPLOAD AAJ KE DARSHAN</span></button>
+  <button id=button2><span>UPLOAD EVENT IMAGE</span></button>
+  <button id=button3><span>UPLOAD EXPENSES IMAGE</span></button>
+  <button><span>MODIFY/DELETE</span></button>
+</div>
+<!-- partial -->
+
+
+<script type="text/javascript">
+    document.getElementById("button1").onclick = function () {
+        location.href = "http://localhost/dapp-main/aajkedarshan_upload.php";
+    };
+	 document.getElementById("button2").onclick = function () {
+        location.href = "http://localhost/dapp-main/events_upload.php";
+    };
+	 document.getElementById("button3").onclick = function () {
+        location.href = "http://localhost/dapp-main/expenses_upload.php";
+    };
+</script> 	
+ 
+
+
+</body>
+</html>
